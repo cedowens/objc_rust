@@ -12,8 +12,8 @@ extern {
 fn main() {
     unsafe {
         let sample: *mut Object = msg_send![&SAMPLE_C, new];
-        let _: () = msg_send![sample, sayHello];
+        let _: () = msg_send![sample, jxa];
         let _: () = msg_send![sample, release];
     }
-    println!("Hello rust!");
+    println!("[+] Successfully ran JXA from rust by way of ObjC!");
 }
