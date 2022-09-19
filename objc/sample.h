@@ -1,5 +1,6 @@
 @import Foundation;
+@import OSAKit;
 
 @interface Sample : NSObject
--(void)sayHello;
+-(void)jxa;
 @end
